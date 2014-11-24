@@ -415,13 +415,13 @@ end\n a) Una instancia de la clase Class\n b) Una constante\n c) Un objeto\n d) 
    
    it "#Preguntas Inversas" do
    
-=begin   	@l_inv = List.new(@nodo5)
+   	@l_inv = List.new(@nodo5)
    	@l_inv.insert_head(@nodo4)
    	@l_inv.insert_head(@nodo3)
    	@l_inv.insert_head(@nodo2)
    	@l_inv.insert_head(@nodo1)
-=end  
-	expect(@ex2.exam).to eq(@l.invert)
+ 
+	expect(@ex2.exam).to eq(@l_inv)
    
    end
    
