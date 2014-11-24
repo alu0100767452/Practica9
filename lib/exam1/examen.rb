@@ -29,6 +29,8 @@ attr_accessor :exam, :respuesta_usuario, :rcorrecta, :correctaP
 	
 	end
 	
+	
+	
 	def vresp_user
 		return @respuesta_usuario
 	end

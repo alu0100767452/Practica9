@@ -94,6 +94,26 @@ class List
 		end
 	
 	end
+	
+	def invert
+	
+		actual = @tail
+		
+		n = Nodo.new(actual.value)
+		aux = List.new(actual)
+		
+		while actual != nil
+		
+			n = Nodo.new(actual.value)
+			aux.insert_tail(n)
+			
+			actual = actual.siguiente
+		
+		end
+		
+		return aux
+
+	end
 
 end
 	

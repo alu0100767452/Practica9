@@ -29,6 +29,12 @@ attr_accessor :exam, :respuesta_usuario, :rcorrecta, :correctaP
 	
 	end
 	
+	def inversa
+	
+	
+	
+	end
+	
 	def vresp_user
 		return @respuesta_usuario
 	end
@@ -91,6 +97,7 @@ attr_accessor :interfaz, :correctaP
 def initialize (examen)
 
 	@interfaz = examen
+	@correctaP = 0
 
 end
 
