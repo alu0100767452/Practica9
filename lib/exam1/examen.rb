@@ -81,9 +81,15 @@ attr_accessor :exam, :respuesta_usuario, :rcorrecta, :correctaP
 	end
 	
 	
-
+	def invert
+		
+		@exam.reverse_each { |x| puts  "#{x}\n" }
+		return true
+			
+	end
 
 end
+
 
 
 class Interfaz
