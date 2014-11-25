@@ -255,11 +255,20 @@ end\n a) Una instancia de la clase Class\n b) Una constante\n c) Un objeto\n d) 
       @l.insert_head(@nodo4)
       @l.insert_head(@nodo5)
 
+
+   #   @l_inv = List.new(@nodo1)
+   #   @l_inv.insert_tail(@nodo2)
+   #   @l_inv.insert_tail(@nodo3)
+   #   @l_inv.insert_tail(@nodo4)
+   #   @l_inv.insert_tail(@nodo5)
+
+
       @ex = Examen.new(@l)
       
       @int = Interfaz.new(@ex)
       
-      @ex2 = Examen.new(@l.invert)
+
+      
       
     	
 
@@ -415,20 +424,10 @@ end\n a) Una instancia de la clase Class\n b) Una constante\n c) Un objeto\n d) 
    
    it "#Preguntas Inversas" do
    
-   	@l_inv = List.new(@nodo5)
-   	@l_inv.insert_head(@nodo4)
-   	@l_inv.insert_head(@nodo3)
-   	@l_inv.insert_head(@nodo2)
-   	@l_inv.insert_head(@nodo1)
- 
-	expect(@ex2.exam).to eq(@l_inv)
-   
+    expect(@ex.invert).to eq(true)
+      
    end
-   
-   
-   
-   
-
+  
 	  
   end
   
