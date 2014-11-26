@@ -96,6 +96,13 @@ class List
 	end
 	
 	def invert
+		
+		reverse_each { |x| puts  "#{x}\n" }
+		return true
+			
+	end
+	
+=begin	def invert
 	
 		actual = @tail
 		
@@ -116,7 +123,7 @@ class List
 		
 
 	end
-
+=end
 end
 	
 

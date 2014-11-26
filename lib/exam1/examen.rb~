@@ -84,7 +84,7 @@ attr_accessor :exam, :respuesta_usuario, :rcorrecta, :correctaP
 	def invert
 		
 		@exam.reverse_each { |x| puts  "#{x}\n" }
-		return true
+		#return true
 			
 	end
 
