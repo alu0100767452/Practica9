@@ -82,8 +82,15 @@ attr_accessor :exam, :respuesta_usuario, :rcorrecta, :correctaP
 	
 	
 	def invert
+	
 		
-		@exam.reverse_each { |x| puts  "#{x}\n" }
+		@s = List.new(@exam.tail)
+		
+		puts @s.print
+		
+		#@exam.each { |x| @s.insert_tail(x) }
+		
+		
 		return true
 			
 	end
@@ -161,6 +168,10 @@ def calificacion
 			false
 		end
 end
+
+	def invert
+		@interfaz.invert
+	end
 
 
 

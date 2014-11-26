@@ -97,10 +97,11 @@ class List
 	
 	def invert
 		
-		reverse_each { |x| puts  "#{x}\n" }
-		return true
+		reverse_each {|x|}
+		
 			
 	end
+
 	
 =begin	def invert
 	
