@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Exam1::VERSION
   spec.authors       = ["Alejandro Delgado Martel"]
   spec.email         = ["alu0100767452@ull.edu.es"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Gema elaborada en clase LPP. Tratamiento de Cuestinarios}
+  spec.description   = %q{En esta Gema se lleva a cabo el tratamiento de preguntas de seleccion simple a traves de listas.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
